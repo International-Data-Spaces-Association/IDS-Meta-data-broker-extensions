@@ -9,6 +9,7 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
     <artifactId>elasticsearch-indexing-provider</artifactId>
+    <version>${elasticsearch-indexing-provider.version}</version>
     <packaging>jar</packaging>
 
     <properties>

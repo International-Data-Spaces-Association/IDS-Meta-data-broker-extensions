@@ -12,18 +12,20 @@
         <jackson.version>2.11.0</jackson.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <revision>5.0.3</revision>
+        <broker-common.version>5.0.3</broker-common.version>
+        <index-common.version>5.0.3</index-common.version>
+        <elasticsearch-indexing-provider.version>5.0.3</elasticsearch-indexing-provider.version>
     </properties>
 
     <groupId>de.fraunhofer.iais.eis.ids</groupId>
-    <artifactId>broker-mds-core-container</artifactId>
+    <artifactId>metadata-broker-extensions</artifactId>
     <version>${revision}</version>
     <packaging>pom</packaging>
 
     <modules>
         <module>index-common</module>
         <module>broker-common</module>
-        <module>metadata-broker-core</module>
-        <module>mds-elasticsearch-indexing-provider</module>
+        <module>elasticsearch-indexing-provider</module>
     </modules>
 
 <!-- Only adding scope test dependencies here -->
