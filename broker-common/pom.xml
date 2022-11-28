@@ -30,7 +30,7 @@
         <dependency>
             <groupId>${project.parent.groupId}</groupId>
             <artifactId>index-common</artifactId>
-            <version>${revision}</version>
+            <version>${index-common.version}</version>
         </dependency>
         <dependency>
             <groupId>de.fraunhofer.iais.eis.ids</groupId>
