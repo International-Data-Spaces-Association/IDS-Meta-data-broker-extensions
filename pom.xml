@@ -89,13 +89,13 @@
         </plugins>
     </build>
 
-    <distributionManagement>
+    <!-- <distributionManagement>
         <repository>
             <id>isst-repo</id>
             <name>Maven repository at ISST</name>
             <url>https://mvn.isst.fraunhofer.de/nexus/repository/ids-local</url>
         </repository>
-    </distributionManagement>
+    </distributionManagement> -->
 
     <repositories>
         <repository>
@@ -109,4 +109,11 @@
                 <url>https://maven.iais.fraunhofer.de/artifactory/eis-ids-snapshot</url>
             </repository>
     </repositories>
+    <distributionManagement>
+        <repository>
+            <id>github</id>
+            <name>GitHub Packages</name>
+            <url>https://maven.pkg.github.com/dpaun/IDS-Meta-data-broker-extensions</url>
+        </repository>
+    </distributionManagement>
 </project>
