@@ -89,7 +89,7 @@
         </plugins>
     </build>
 
-    <!-- <distributionManagement>
+    <!-- <distributionManagement> 
         <repository>
             <id>isst-repo</id>
             <name>Maven repository at ISST</name>
